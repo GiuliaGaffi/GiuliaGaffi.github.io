@@ -43,10 +43,10 @@
     <button style="outline:none; position: fixed;" id="hamburger-menu" data-toggle="ham-navigation" class="hamburger-menu-button animate__animated animate__pulse animate__repeat-3"><span class="hamburger-menu-button-open">Menu</span></button>
     <nav id="ham-navigation" class="ham-menu" style="position: fixed;">
 
-        <ul class="menu">
-            <li><a href="#galleria" onclick="openPage('Ricerca')">Ricerca</a></li>
-            <li><a href="#galleria" onclick="openPage('Uomo')">Uomo</a></li>
-            <li><a href="#galleria" onclick="openPage('Altro')">Altro</a></li>
+        <ul class="menu" onclick="closeDefaultPage()">
+            <li><a href="#galleria" onclick="openPage('Arte')">Arte</a></li>
+            <li><a href="#galleria" onclick="openPage('Cinema')">Cinema</a></li>
+            <li><a href="#galleria" onclick="openPage('Musica')">Musica</a></li>
 
         </ul>
     </nav>
@@ -96,19 +96,15 @@
                         <div>
                             <br>
 
-                            <p>I collage, realizzati digitalmente, fanno parte di una ricerca sullo studio delle relazioni possibili tra le diverse
-                               arti. Le associazioni sono, infatti, composte da immagini riprese dalla storia dell’arte, dal cinema, dalla
-                               televisione, dall’architettura, dalla fotografia fino alla moda. Le opere divengono l’esposizione di una ricerca
-                               che tenta di mettere in relazione elementi che provengono da diverse realtà ma che dialogano tra loro.
+                            <p>I collage, realizzati digitalmente, fanno parte di una ricerca sullo studio delle relazioni possibili tra le diverse arti. Le associazioni sono, infatti, composte da immagini riprese dalla storia dell’arte, dal cinema, dalla
+                                televisione, dall’architettura, dalla fotografia fino alla moda.
                             </p>
 
-                            <p>Le opere divengono l’esposizione di una ricerca
-                               che tenta di mettere in relazione elementi che provengono da diverse realtà ma che dialogano tra loro.
+                            <p>Le opere divengono l’esposizione di una ricerca che tenta di mettere in relazione elementi che provengono da diverse realtà ma che dialogano tra loro.
                             </p>
-                    
-                            <p>L’obiettivo del progetto e della ricerca artistica è quello di realizzare nuove immagini composte da elementi
-                               preesistenti e di attivare, in chi osserva, curiosità e riflessione su quale sia il legame, la relazione tra le
-                               immagini associate. </p>
+
+                            <p>L’obiettivo del progetto e della ricerca artistica è quello di realizzare nuove immagini composte da elementi preesistenti e di attivare, in chi osserva, curiosità e riflessione su quale sia il legame, la relazione tra le immagini
+                                associate. </p>
 
                             <a href="/cv.pdf" download><i class="fa fa-download"></i>&ensp;Curriculm Vitae</a>
                         </div>
@@ -121,7 +117,7 @@
 
                     <div class="row mt-5 pl-3">
                         <div class="col-4">
-                            <a href="https://www.instagram.com">
+                            <a href="https://www.instagram.com/associazionivisive/">
                                 <p class="pNav"><i class="fa fa-instagram contactNavLink"></i></p>
                             </a>
                         </div>
@@ -164,55 +160,54 @@
         <div class="container">
             <h1 class="pt-3 ">Giulia Gaffi</h1>
 
-            <!-- test navbar -->
+            <!-- Default Page Immages -->
+            <section id="defaultPage" class="mt-5">
 
-            <div class="gallery" style="margin-top: -30px;">
 
-                <div id="Ricerca" class="tabcontent">
-
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/3LGZmJXexqccKycawEwy4O/1c8cb7125556a766caab4bb0728938bc/91237c793f14d57f5254f2591fb44ab1.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/3LGZmJXexqccKycawEwy4O/1c8cb7125556a766caab4bb0728938bc/91237c793f14d57f5254f2591fb44ab1.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/3LGZmJXexqccKycawEwy4O/1c8cb7125556a766caab4bb0728938bc/91237c793f14d57f5254f2591fb44ab1.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/3LGZmJXexqccKycawEwy4O/1c8cb7125556a766caab4bb0728938bc/91237c793f14d57f5254f2591fb44ab1.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/4VVZvInNAQEmaeoMcgamI0/a76f461cf52219ff74649ba04dc087d2/LG_Modena_1973.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/4VVZvInNAQEmaeoMcgamI0/a76f461cf52219ff74649ba04dc087d2/LG_Modena_1973.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/4VVZvInNAQEmaeoMcgamI0/a76f461cf52219ff74649ba04dc087d2/LG_Modena_1973.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/3LGZmJXexqccKycawEwy4O/1c8cb7125556a766caab4bb0728938bc/91237c793f14d57f5254f2591fb44ab1.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/3LGZmJXexqccKycawEwy4O/1c8cb7125556a766caab4bb0728938bc/91237c793f14d57f5254f2591fb44ab1.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
+                <div class="gallery">
+                    <img class="gallery-img" onContextMenu="return false;" src="arte-Anacronistico.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="cine-Colazione con Tim Burton.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="cine-Colazione con Tim Burton.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="arte-Costellazione.jpg.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="musica-Luce Dalla.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="arte-Costellazione.jpg.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="arte-A caccia di aeroplani.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="cine-Affacciati alla finestra.jpg" alt="" width="100%" height="auto" />
 
                 </div>
 
-                <div id="Uomo" class="tabcontent">
+            </section>
 
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/4VVZvInNAQEmaeoMcgamI0/a76f461cf52219ff74649ba04dc087d2/LG_Modena_1973.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/4VVZvInNAQEmaeoMcgamI0/a76f461cf52219ff74649ba04dc087d2/LG_Modena_1973.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/4VVZvInNAQEmaeoMcgamI0/a76f461cf52219ff74649ba04dc087d2/LG_Modena_1973.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/4VVZvInNAQEmaeoMcgamI0/a76f461cf52219ff74649ba04dc087d2/LG_Modena_1973.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/4VVZvInNAQEmaeoMcgamI0/a76f461cf52219ff74649ba04dc087d2/LG_Modena_1973.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
+            <!-- Close Default Page Immages -->
 
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/HxQCSvzdC0siwa0Em6aG8/a87296563ace81e6c8857df4efa5c27f/Formigine-Ingresso-casa-colonica-startpage_bj6u9u.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto"
-                    />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/HxQCSvzdC0siwa0Em6aG8/a87296563ace81e6c8857df4efa5c27f/Formigine-Ingresso-casa-colonica-startpage_bj6u9u.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto"
-                    />
+            <div class="gallery mt-5">
+
+                <div id="Arte" class="tabcontent">
+
+                    <img class="gallery-img" onContextMenu="return false;" src="arte-A caccia di aeroplani.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="arte-Anacronistico.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="arte-Costellazione.jpg.jpg" alt="" width="100%" height="auto" />
+
+                </div>
+
+                <div id="Cinema" class="tabcontent">
+
+                    <img class="gallery-img" onContextMenu="return false;" src="cine-Affacciati alla finestra.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="cine-Colazione con Tim Burton.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="cine-Attenzione.jpg" alt="" width="100%" height="auto" />
 
                 </div>
 
 
-                <div id="Altro" class="tabcontent">
+                <div id="Musica" class="tabcontent">
 
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/HxQCSvzdC0siwa0Em6aG8/a87296563ace81e6c8857df4efa5c27f/Formigine-Ingresso-casa-colonica-startpage_bj6u9u.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto"
-                    />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/HxQCSvzdC0siwa0Em6aG8/a87296563ace81e6c8857df4efa5c27f/Formigine-Ingresso-casa-colonica-startpage_bj6u9u.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto"
-                    />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/HxQCSvzdC0siwa0Em6aG8/a87296563ace81e6c8857df4efa5c27f/Formigine-Ingresso-casa-colonica-startpage_bj6u9u.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto"
-                    />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/HxQCSvzdC0siwa0Em6aG8/a87296563ace81e6c8857df4efa5c27f/Formigine-Ingresso-casa-colonica-startpage_bj6u9u.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto"
-                    />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/3LGZmJXexqccKycawEwy4O/1c8cb7125556a766caab4bb0728938bc/91237c793f14d57f5254f2591fb44ab1.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
-                    <img class="gallery-img" onContextMenu="return false;" src="https://images.ctfassets.net/5805ggcvgm1d/3LGZmJXexqccKycawEwy4O/1c8cb7125556a766caab4bb0728938bc/91237c793f14d57f5254f2591fb44ab1.jpg?fm=jpg&q=85&w=700" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="musica-Camminare.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="musica-Il guanto ritrovato.jpg" alt="" width="100%" height="auto" />
+                    <img class="gallery-img" onContextMenu="return false;" src="musica-Luce Dalla.jpg" alt="" width="100%" height="auto" />
 
 
                 </div>
+
 
             </div>
         </div>
@@ -280,7 +275,7 @@
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <ul class="social-icons">
-                                <li><a class="instagram" href="www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="instagram" href="https://www.instagram.com/associazionivisive/"><i class="fa fa-instagram"></i></a></li>
                                 <!--
                                 <li><a class="whatsapp" href="https://api.whatsapp.com/send?phone=+393347828627"><i class="fa fa-whatsapp"></i></a></li>
                                 -->
