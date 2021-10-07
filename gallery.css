@@ -15,9 +15,6 @@
      overflow: hidden;
  }
 
-img {
-     pointer-events: none;
- }
  
  .gallery img {
      width: 100%;
